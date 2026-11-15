@@ -1,0 +1,688 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="icon" href="data:," />
+    <meta name="description" content="南京市圣类思教育培训中心 — 11 年专注中小学学科课程，具有办学许可证的白名单学科培训机构。开设英语启蒙、幼小衔接、剑桥少儿英语、新概念英语、Think、KET、PET、语数外同步+提优、物理、化学。地址：南京市江宁区金盛路175号，咨询电话 18136496627。" />
+    <title>南京市圣类思教育培训中心 · shengleisi.com 官网预览</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700;900&family=Noto+Serif+SC:wght@600;900&family=Caveat:wght@600;700&display=swap" rel="stylesheet" />
+    <style>
+      :root {
+        --bg: #fffdf8;
+        --surface: #ffffff;
+        --surface-2: #f6f1e6;
+        --ink: #22302b;
+        --ink-soft: #5a6a63;
+        --line: #e7dfd0;
+        --green: #177a5b;
+        --green-deep: #0e5c43;
+        --green-tint: #e5f2ec;
+        --amber: #f2a81d;
+        --amber-deep: #d98d06;
+        --amber-tint: #fdf0d5;
+        --coral: #ef6f53;
+        --radius: 18px;
+        --shadow: 0 18px 40px rgba(34, 48, 43, .10);
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #131a17;
+          --surface: #1b2420;
+          --surface-2: #212c27;
+          --ink: #eef3ef;
+          --ink-soft: #a9bab1;
+          --line: #2e3d36;
+          --green: #3cb58c;
+          --green-deep: #2b9673;
+          --green-tint: #1d2f28;
+          --amber: #f5b63f;
+          --amber-deep: #f5b63f;
+          --amber-tint: #33291a;
+          --coral: #ff8a70;
+          --shadow: 0 18px 40px rgba(0, 0, 0, .45);
+        }
+      }
+      * { box-sizing: border-box; }
+      html { scroll-behavior: smooth; }
+      @media (prefers-reduced-motion: reduce) {
+        html { scroll-behavior: auto; }
+        * { animation: none !important; transition: none !important; }
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font-family: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+        line-height: 1.75;
+        -webkit-font-smoothing: antialiased;
+      }
+      img { max-width: 100%; display: block; }
+      a { color: var(--green-deep); }
+      button, [role="button"], select, summary, input:not([type="checkbox"], [type="radio"]) { min-height: 2.25rem; }
+      .wrap { max-width: 1120px; margin: 0 auto; padding: 0 20px; }
+
+      /* ---------- preview ribbon ---------- */
+      .ribbon {
+        background: var(--ink); color: var(--bg);
+        font-size: 13px; letter-spacing: .02em;
+      }
+      .ribbon .wrap { display: flex; flex-wrap: wrap; gap: 4px 14px; align-items: center; justify-content: center; padding-top: 7px; padding-bottom: 7px; text-align: center; }
+      .ribbon b { color: var(--amber); font-weight: 700; }
+      .ribbon .dot { opacity: .45; }
+
+      /* ---------- header ---------- */
+      header.site {
+        position: sticky; top: 0; z-index: 50;
+        background: color-mix(in srgb, var(--bg) 88%, transparent);
+        backdrop-filter: blur(10px);
+        border-bottom: 1px solid var(--line);
+      }
+      .header-in { display: flex; align-items: center; gap: 14px; padding-top: 12px; padding-bottom: 12px; }
+      .brand { display: flex; align-items: center; gap: 11px; text-decoration: none; color: var(--ink); min-width: 0; }
+      .brand-mark {
+        flex: none; width: 44px; height: 44px; border-radius: 13px;
+        background: var(--green); color: #fff;
+        display: grid; place-items: center;
+        font-family: "Noto Serif SC", serif; font-weight: 900; font-size: 22px;
+        box-shadow: inset 0 -3px 0 rgba(0,0,0,.15);
+      }
+      .brand-name { font-family: "Noto Serif SC", serif; font-weight: 900; font-size: 19px; line-height: 1.25; letter-spacing: .01em; }
+      .brand-sub { font-size: 11.5px; color: var(--ink-soft); letter-spacing: .14em; line-height: 1.3; }
+      nav.main { margin-left: auto; display: flex; gap: 4px; align-items: center; }
+      nav.main a {
+        color: var(--ink); text-decoration: none; font-size: 15px; font-weight: 500;
+        padding: 8px 12px; border-radius: 999px; display: inline-flex; align-items: center; min-height: 36px;
+      }
+      nav.main a:hover { background: var(--green-tint); color: var(--green-deep); }
+      .btn {
+        display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+        border: none; cursor: pointer; text-decoration: none;
+        font-family: inherit; font-size: 15.5px; font-weight: 700;
+        padding: 10px 22px; min-height: 44px; border-radius: 999px;
+        transition: transform .15s ease, background .15s ease;
+      }
+      .btn:active { transform: scale(.97); }
+      .btn-amber { background: var(--amber); color: #3a2703; box-shadow: 0 8px 20px rgba(242,168,29,.35); }
+      .btn-amber:hover { background: var(--amber-deep); color: #fff; }
+      .btn-green { background: var(--green); color: #fff; }
+      .btn-green:hover { background: var(--green-deep); }
+      .btn-ghost { background: transparent; color: var(--ink); border: 1.5px solid var(--line); }
+      .btn-ghost:hover { border-color: var(--green); color: var(--green-deep); }
+      .nav-cta { margin-left: 8px; }
+      .menu-btn {
+        display: none; margin-left: auto; flex: none;
+        width: 44px; height: 44px; border-radius: 12px;
+        border: 1.5px solid var(--line); background: var(--surface); color: var(--ink);
+        align-items: center; justify-content: center; cursor: pointer;
+      }
+      .menu-btn svg { width: 22px; height: 22px; }
+
+      /* ---------- hero ---------- */
+      .hero { position: relative; overflow: hidden; }
+      .hero-bg-dots {
+        position: absolute; inset: 0; pointer-events: none; opacity: .5;
+        background-image: radial-gradient(var(--line) 1.6px, transparent 1.6px);
+        background-size: 26px 26px;
+        mask-image: linear-gradient(to bottom, black, transparent 70%);
+        -webkit-mask-image: linear-gradient(to bottom, black, transparent 70%);
+      }
+      .hero-in { position: relative; display: grid; grid-template-columns: 1.02fr .98fr; gap: 44px; align-items: center; padding: 58px 20px 64px; }
+      .hero-tag {
+        display: inline-flex; align-items: center; gap: 8px;
+        background: var(--amber-tint); color: var(--amber-deep);
+        font-size: 13.5px; font-weight: 700; letter-spacing: .04em;
+        padding: 6px 14px; border-radius: 999px; margin-bottom: 20px;
+      }
+      .hero-tag .sun { width: 15px; height: 15px; }
+      h1 {
+        font-family: "Noto Serif SC", serif; font-weight: 900;
+        font-size: clamp(34px, 5.2vw, 54px); line-height: 1.22; margin: 0 0 18px;
+        letter-spacing: .01em;
+      }
+      h1 .hl { color: var(--green); position: relative; white-space: nowrap; }
+      h1 .hl::after {
+        content: ""; position: absolute; left: 0; right: 0; bottom: 2px; height: 10px;
+        background: var(--amber); opacity: .45; border-radius: 5px; z-index: -1;
+      }
+      .hero p.lead { font-size: 17.5px; color: var(--ink-soft); margin: 0 0 28px; max-width: 30em; }
+      .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; }
+      .hero-photo { position: relative; }
+      .hero-photo .frame {
+        border-radius: 26px; overflow: hidden; box-shadow: var(--shadow);
+        border: 6px solid var(--surface);
+        transform: rotate(1.2deg);
+      }
+      .hero-photo img { width: 100%; height: 100%; object-fit: cover; aspect-ratio: 4 / 3.1; }
+      .today-card {
+        position: absolute; left: -14px; bottom: 22px; max-width: 300px;
+        background: var(--surface); border: 1px solid var(--line); border-radius: 16px;
+        box-shadow: var(--shadow); padding: 14px 18px 15px;
+        transform: rotate(-1.6deg);
+      }
+      .today-card .tc-top { display: flex; align-items: center; gap: 8px; font-size: 12.5px; font-weight: 700; color: var(--green-deep); letter-spacing: .06em; }
+      .today-card .tc-top .pulse { width: 8px; height: 8px; border-radius: 50%; background: var(--coral); animation: pulse 1.8s infinite; }
+      @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .3; } }
+      .today-card .tc-en { font-family: "Caveat", cursive; font-size: 27px; font-weight: 700; color: var(--ink); line-height: 1.15; margin-top: 3px; }
+      .today-card .tc-zh { font-size: 13.5px; color: var(--ink-soft); }
+      .hero-stats { display: flex; flex-wrap: wrap; gap: 10px 34px; margin-top: 34px; }
+      .hero-stats div b { display: block; font-size: 21px; font-weight: 900; color: var(--green-deep); line-height: 1.2; font-family: "Noto Serif SC", serif; }
+      .hero-stats div span { font-size: 13px; color: var(--ink-soft); }
+
+      /* ---------- sections ---------- */
+      section.block { padding: 72px 0; }
+      section.tint { background: var(--surface-2); }
+      .sec-head { max-width: 640px; margin-bottom: 38px; }
+      .sec-head.center { margin-left: auto; margin-right: auto; text-align: center; }
+      h2 { font-family: "Noto Serif SC", serif; font-weight: 900; font-size: clamp(26px, 3.6vw, 36px); line-height: 1.3; margin: 0 0 12px; }
+      .sec-head p { color: var(--ink-soft); font-size: 16px; margin: 0; }
+
+      /* about */
+      .about-grid { display: grid; grid-template-columns: .92fr 1.08fr; gap: 46px; align-items: center; }
+      .about-grid .ph { border-radius: 24px; overflow: hidden; box-shadow: var(--shadow); }
+      .about-grid .ph img { aspect-ratio: 4/3; object-fit: cover; width: 100%; }
+      .about-points { list-style: none; margin: 22px 0 0; padding: 0; display: grid; gap: 14px; }
+      .about-points li { display: flex; gap: 12px; align-items: flex-start; font-size: 15.5px; }
+      .about-points .tick {
+        flex: none; width: 24px; height: 24px; margin-top: 3px; border-radius: 50%;
+        background: var(--green-tint); color: var(--green-deep); display: grid; place-items: center;
+      }
+      .about-points .tick svg { width: 13px; height: 13px; }
+      .about-points b { color: var(--green-deep); }
+
+      /* courses */
+      .course-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+      .course {
+        background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+        padding: 28px 26px; display: flex; flex-direction: column; gap: 10px;
+      }
+      .course .age {
+        align-self: flex-start; font-size: 13px; font-weight: 700; letter-spacing: .05em;
+        padding: 4px 12px; border-radius: 999px;
+      }
+      .course.c1 .age { background: var(--amber-tint); color: var(--amber-deep); }
+      .course.c2 .age { background: var(--green-tint); color: var(--green-deep); }
+      .course.c3 .age { background: #fdeae5; color: #c24a32; }
+      @media (prefers-color-scheme: dark) { .course.c3 .age { background: #3a241f; color: var(--coral); } }
+      .course h3 { font-size: 20px; margin: 2px 0 0; font-weight: 900; }
+      .course p { margin: 0; color: var(--ink-soft); font-size: 15px; flex: 1; }
+      .course ul { margin: 4px 0 0; padding: 0; list-style: none; display: grid; gap: 6px; font-size: 14.5px; }
+      .course ul li::before { content: "·"; color: var(--amber-deep); font-weight: 900; margin-right: 8px; }
+      .fill-note {
+        margin-top: 20px; font-size: 13.5px; color: var(--ink-soft);
+        border: 1.5px dashed var(--line); border-radius: 12px; padding: 10px 16px;
+        background: var(--surface);
+      }
+      .fill-note b { color: var(--amber-deep); }
+
+      /* morning reading */
+      section.reading { background: var(--green-deep); color: #eaf5ef; }
+      @media (prefers-color-scheme: dark) { section.reading { background: #0d2b21; } }
+      section.reading h2 { color: #fff; }
+      section.reading .sec-head p { color: #bcd8cb; }
+      .reading-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 44px; align-items: center; }
+      .reading-grid .ph { border-radius: 24px; overflow: hidden; box-shadow: 0 24px 50px rgba(0,0,0,.28); }
+      .reading-grid .ph img { width: 100%; aspect-ratio: 3/2; object-fit: cover; }
+      .ep-list { list-style: none; margin: 0 0 22px; padding: 0; display: grid; gap: 10px; }
+      .ep-list li {
+        display: flex; align-items: center; gap: 14px;
+        background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.14);
+        border-radius: 14px; padding: 12px 16px;
+      }
+      .ep-list .day {
+        flex: none; font-family: "Caveat", cursive; font-weight: 700; font-size: 19px;
+        color: var(--amber); min-width: 64px; line-height: 1;
+      }
+      .ep-list .theme { font-weight: 700; font-size: 16px; color: #fff; }
+      .ep-list .en { font-family: "Caveat", cursive; font-size: 19px; color: #cfe7da; line-height: 1.1; }
+      .ep-list .coll {
+        margin-left: auto; flex: none; font-size: 12px; font-weight: 700;
+        border: 1px solid rgba(255,255,255,.35); color: #dcefe5;
+        padding: 3px 10px; border-radius: 999px;
+      }
+      .reading-note { font-size: 14.5px; color: #bcd8cb; margin: 0; }
+      .reading-note b { color: #fff; }
+
+      /* practice card */
+      .practice {
+        margin-top: 44px; background: var(--surface); color: var(--ink);
+        border-radius: 24px; box-shadow: var(--shadow); overflow: hidden;
+        display: grid; grid-template-columns: .9fr 1.1fr;
+      }
+      .practice-side { background: var(--amber-tint); padding: 30px 30px 34px; }
+      .practice-side h3 { margin: 0 0 8px; font-size: 21px; font-weight: 900; font-family: "Noto Serif SC", serif; }
+      .practice-side p { margin: 0; font-size: 14.5px; color: var(--ink-soft); }
+      .practice-side .steps { margin: 18px 0 0; padding: 0; list-style: none; display: grid; gap: 9px; font-size: 14.5px; }
+      .practice-side .steps li { display: flex; gap: 10px; align-items: baseline; }
+      .practice-side .steps .n {
+        flex: none; width: 21px; height: 21px; border-radius: 50%; transform: translateY(4px);
+        background: var(--amber); color: #3a2703; font-size: 12.5px; font-weight: 900;
+        display: grid; place-items: center;
+      }
+      .practice-main { padding: 30px 30px 34px; display: flex; flex-direction: column; }
+      .flashcard {
+        flex: 1; border: 2px solid var(--line); border-radius: 18px; cursor: pointer;
+        padding: 26px 24px; display: flex; flex-direction: column; justify-content: center; gap: 6px;
+        background: var(--bg); text-align: left; font-family: inherit; width: 100%;
+        transition: border-color .15s ease;
+      }
+      .flashcard:hover { border-color: var(--amber); }
+      .flashcard .fc-tag { font-size: 12.5px; font-weight: 700; letter-spacing: .08em; color: var(--green-deep); }
+      .flashcard .fc-en { font-family: "Caveat", cursive; font-size: clamp(32px, 4.6vw, 44px); font-weight: 700; line-height: 1.15; color: var(--ink); }
+      .flashcard .fc-zh { font-size: 17px; color: var(--ink-soft); min-height: 30px; }
+      .flashcard .fc-hint { font-size: 12.5px; color: var(--ink-soft); opacity: .75; }
+      .practice-controls { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-top: 18px; }
+      .practice-controls .spacer { flex: 1; }
+      .read-count { font-size: 14px; color: var(--ink-soft); }
+      .read-count b { color: var(--coral); font-size: 17px; }
+      .icon-btn {
+        width: 44px; height: 44px; border-radius: 50%; border: 1.5px solid var(--line);
+        background: var(--surface); color: var(--ink); cursor: pointer;
+        display: inline-flex; align-items: center; justify-content: center;
+      }
+      .icon-btn:hover { border-color: var(--green); color: var(--green-deep); }
+      .icon-btn svg { width: 19px; height: 19px; }
+
+      /* features */
+      .feat-list { display: grid; grid-template-columns: 1fr 1fr; gap: 0 48px; }
+      .feat { display: flex; gap: 18px; padding: 22px 0; border-bottom: 1px solid var(--line); }
+      .feat .num { font-family: "Caveat", cursive; font-size: 30px; font-weight: 700; color: var(--amber-deep); line-height: 1; flex: none; width: 40px; }
+      .feat h3 { margin: 0 0 5px; font-size: 17.5px; font-weight: 900; }
+      .feat p { margin: 0; font-size: 14.5px; color: var(--ink-soft); }
+
+      /* contact */
+      .contact-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+      .contact-item {
+        border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface);
+        padding: 26px; display: flex; flex-direction: column; gap: 8px; min-height: 168px;
+      }
+      .contact-item .ci-label { display: flex; align-items: center; gap: 9px; font-size: 14px; font-weight: 700; color: var(--ink-soft); letter-spacing: .05em; }
+      .contact-item .ci-label svg { width: 19px; height: 19px; color: var(--green); }
+      .contact-item .ci-value { font-size: 19px; font-weight: 900; line-height: 1.45; }
+      .contact-item .ci-value a { color: var(--ink); text-decoration: none; }
+      .contact-item .ci-value a:hover { color: var(--green-deep); text-decoration: underline; }
+      .contact-item p { margin: 0; font-size: 13.5px; color: var(--ink-soft); }
+      .todo-chip {
+        align-self: flex-start; font-size: 12px; font-weight: 700; color: var(--amber-deep);
+        background: var(--amber-tint); border: 1px dashed var(--amber);
+        padding: 3px 10px; border-radius: 999px;
+      }
+      .qr-slot {
+        border: 2px dashed var(--line); border-radius: 14px; height: 108px;
+        display: grid; place-items: center; color: var(--ink-soft); font-size: 13.5px;
+        background: var(--bg); text-align: center; padding: 8px;
+      }
+      .contact-cta { margin-top: 26px; display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: center; text-align: center; }
+      .contact-cta p { width: 100%; margin: 0 0 2px; color: var(--ink-soft); font-size: 15px; }
+
+      footer.site { border-top: 1px solid var(--line); padding: 30px 0 38px; }
+      .footer-in { display: flex; flex-wrap: wrap; gap: 8px 22px; align-items: center; justify-content: space-between; font-size: 13.5px; color: var(--ink-soft); }
+      .footer-in .f-brand { font-family: "Noto Serif SC", serif; font-weight: 900; color: var(--ink); font-size: 15px; }
+
+      @media (max-width: 900px) {
+        .hero-in { grid-template-columns: 1fr; gap: 34px; padding-top: 40px; }
+        .today-card { left: 10px; bottom: 12px; }
+        .about-grid, .reading-grid, .practice { grid-template-columns: 1fr; }
+        .course-grid, .contact-grid { grid-template-columns: 1fr; }
+        .feat-list { grid-template-columns: 1fr; }
+        nav.main {
+          display: none; position: absolute; top: 100%; left: 0; right: 0;
+          background: var(--surface); border-bottom: 1px solid var(--line);
+          flex-direction: column; align-items: stretch; padding: 10px 16px 16px; gap: 2px;
+          box-shadow: var(--shadow);
+        }
+        nav.main.open { display: flex; }
+        nav.main a { padding: 10px 12px; font-size: 16px; }
+        .nav-cta { margin: 8px 0 0; }
+        .menu-btn { display: inline-flex; }
+        .brand-name { font-size: 16.5px; }
+        section.block { padding: 54px 0; }
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="ribbon">
+      <div class="wrap">
+        <span>这是 <b>shengleisi.com</b> 的官网设计预览</span>
+        <span class="dot">·</span>
+        <span>域名尚未购买，看中版式再决定</span>
+        <span class="dot">·</span>
+        <span>地址、电话、课程已按机构实情填入</span>
+      </div>
+    </div>
+
+    <header class="site">
+      <div class="wrap header-in">
+        <a class="brand" href="#top" aria-label="南京市圣类思教育培训中心">
+          <span class="brand-mark">圣</span>
+          <span>
+            <span class="brand-name">南京市圣类思教育培训中心</span><br />
+            <span class="brand-sub">SHENGLEISI EDUCATION · NANJING</span>
+          </span>
+        </a>
+        <button class="menu-btn" id="menuBtn" aria-label="打开菜单" aria-expanded="false">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+        <nav class="main" id="mainNav">
+          <a href="#about">关于我们</a>
+          <a href="#courses">课程设置</a>
+          <a href="#reading">每日晨读</a>
+          <a href="#features">教学特色</a>
+          <a href="#contact">联系我们</a>
+          <a class="btn btn-amber nav-cta" href="#contact" style="min-height:44px;">咨询报名</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+
+      <!-- HERO -->
+      <div class="hero">
+        <div class="hero-bg-dots"></div>
+        <div class="wrap hero-in">
+          <div>
+            <span class="hero-tag">
+              <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+              具有办学许可证 · 白名单学科培训机构
+            </span>
+            <h1>每天一句英语，<br />把<span class="hl">晨读</span>变成习惯</h1>
+            <p class="lead">圣类思 11 年专注中小学学科课程。英语从生活里最熟悉的场景开始——刷牙、洗手、吃早餐——每天读一句、说一句，让孩子开口说英语像刷牙洗脸一样自然。</p>
+            <div class="hero-actions">
+              <a class="btn btn-green" href="#courses">看看课程设置</a>
+              <a class="btn btn-ghost" href="#reading">今日晨读读什么</a>
+            </div>
+            <div class="hero-stats">
+              <div><b>11 年</b><span>专注中小学学科课程</span></div>
+              <div><b>10 门</b><span>在开课程，英语到理化</span></div>
+              <div><b>140+ 期</b><span>每日晨读持续更新</span></div>
+            </div>
+          </div>
+          <div class="hero-photo">
+            <div class="frame"><img src="hero.jpg" alt="几个孩子围坐在一起开心地共读一本英文绘本" /></div>
+            <div class="today-card">
+              <div class="tc-top"><span class="pulse"></span>日常洗漱合集 · 第 3 集</div>
+              <div class="tc-en">Brush your teeth.</div>
+              <div class="tc-zh">刷牙——这句总读错，今天读对它</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ABOUT -->
+      <section class="block" id="about">
+        <div class="wrap about-grid">
+          <div class="ph"><img src="reading.jpg" alt="三个孩子趴在地毯上一起翻看一本大绘本，边读边笑" /></div>
+          <div>
+            <div class="sec-head" style="margin-bottom:0;">
+              <h2>关于圣类思</h2>
+              <p>南京市圣类思教育培训中心位于南京市江宁区金盛路 175 号，11 年专注中小学学科课程，是具有办学许可证的白名单学科培训机构。从英语启蒙、幼小衔接，到剑桥少儿英语、KET、PET，再到语数外同步提优和物理、化学——我们相信学习靠每天一点点积累：低龄孩子先愿意开口，再慢慢说对、说顺。</p>
+            </div>
+            <ul class="about-points">
+              <li>
+                <span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span>
+                <span><b>资质正规，持证办学</b>——具有办学许可证的白名单学科培训机构，11 年专注中小学学科课程。</span>
+              </li>
+              <li>
+                <span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span>
+                <span><b>线下课堂面授</b>——老师当面带读、纠音，孩子的问题当场解决。</span>
+              </li>
+              <li>
+                <span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span>
+                <span><b>线上每日晨读</b>——「跟着圣类思 Joe 老师一起晨读」每天更新一句，课堂之外不断线。</span>
+              </li>
+              <li>
+                <span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span>
+                <span><b>只教生活里用得上的英语</b>——句子都来自孩子的日常场景，学完当天就能用。</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- COURSES -->
+      <section class="block tint" id="courses">
+        <div class="wrap">
+          <div class="sec-head">
+            <h2>课程设置</h2>
+            <p>机构实际开设的课程：从幼儿英语启蒙到中学物理、化学，按孩子的年龄和基础分层分班。</p>
+          </div>
+          <div class="course-grid">
+            <article class="course c1">
+              <span class="age">英语 · 启蒙到进阶</span>
+              <h3>英语课程</h3>
+              <p>从幼儿启蒙一路到 KET、PET，按年龄和基础分班，听说读写逐步进阶。</p>
+              <ul>
+                <li>英语启蒙</li>
+                <li>幼小衔接</li>
+                <li>剑桥少儿英语</li>
+                <li>新概念英语</li>
+                <li>Think</li>
+                <li>KET</li>
+                <li>PET</li>
+              </ul>
+            </article>
+            <article class="course c2">
+              <span class="age">全科 · 校内同步</span>
+              <h3>语数外同步 + 提优</h3>
+              <p>紧跟校内进度，同步巩固、查漏补缺，在吃透课内之后再适度提优。</p>
+              <ul>
+                <li>语文同步 + 提优</li>
+                <li>数学同步 + 提优</li>
+                <li>英语同步 + 提优</li>
+              </ul>
+            </article>
+            <article class="course c3">
+              <span class="age">理科 · 物理化学</span>
+              <h3>物理 · 化学</h3>
+              <p>中小学理科课程，概念先打底，再用例题和练习把解题思路练扎实。</p>
+              <ul>
+                <li>物理</li>
+                <li>化学</li>
+              </ul>
+            </article>
+          </div>
+          <div class="fill-note">各班型的上课时间、课时安排与收费以机构公布为准，欢迎来电咨询：<b>18136496627</b>。</div>
+        </div>
+      </section>
+
+      <!-- MORNING READING -->
+      <section class="block reading" id="reading">
+        <div class="wrap">
+          <div class="reading-grid">
+            <div>
+              <div class="sec-head" style="margin-bottom:26px;">
+                <h2>每日晨读 · 每天一句</h2>
+                <p>这是圣类思的招牌栏目：每天早上更新一条短视频，一句生活英语，读给孩子听、陪孩子读。内容分成两个合集，<b style="color:#fff;">各自独立编号</b>：主线「晨读」按天更新，已更新 140 多期；刷牙、洗脸、洗手这类洗漱主题归入「日常洗漱」合集，从第 1 集数起，不和晨读的天数混在一起。在小红书搜索账号名就能看全部。</p>
+              </div>
+              <ul class="ep-list">
+                <li><span class="day">第 3 集</span><span><span class="theme">刷牙</span><br /><span class="en">Brush your teeth.</span></span><span class="coll">日常洗漱</span></li>
+                <li><span class="day">第 2 集</span><span><span class="theme">洗澡</span><br /><span class="en">Time to take a bath.</span></span><span class="coll">日常洗漱</span></li>
+                <li><span class="day">第 1 集</span><span><span class="theme">洗手</span><br /><span class="en">Wash your hands.</span></span><span class="coll">日常洗漱</span></li>
+              </ul>
+              <p class="reading-note">小红书账号：<b>跟着圣类思Joe老师一起晨读</b>（小红书号 94528319491），每天早上陪孩子读一句。</p>
+            </div>
+            <div class="ph"><img src="classroom.jpg" alt="插画：老师带着四个孩子在英语课堂上开心地举手互动" /></div>
+          </div>
+
+          <!-- interactive practice -->
+          <div class="practice">
+            <div class="practice-side">
+              <h3>陪孩子练一句</h3>
+              <p>晨读的方法很简单，在家就能照着做。点开右边的卡片，和孩子一起试一次：</p>
+              <ol class="steps">
+                <li><span class="n">1</span><span>先看英文，大声读出来</span></li>
+                <li><span class="n">2</span><span>点卡片翻出中文，看看猜对没有</span></li>
+                <li><span class="n">3</span><span>读对了，就点一次「读对啦」打卡</span></li>
+              </ol>
+            </div>
+            <div class="practice-main">
+              <button class="flashcard" id="flashcard" type="button" aria-label="晨读句卡片，点击翻看中文">
+                <span class="fc-tag" id="fcTag">日常洗漱 · 第 1 句</span>
+                <span class="fc-en" id="fcEn">Brush your teeth.</span>
+                <span class="fc-zh" id="fcZh">&nbsp;</span>
+                <span class="fc-hint">点卡片翻看中文意思</span>
+              </button>
+              <div class="practice-controls">
+                <button class="icon-btn" id="prevBtn" type="button" aria-label="上一句">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+                </button>
+                <button class="icon-btn" id="nextBtn" type="button" aria-label="下一句">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg>
+                </button>
+                <span class="spacer"></span>
+                <span class="read-count">今天已读对 <b id="readCount">0</b> 遍</span>
+                <button class="btn btn-amber" id="checkinBtn" type="button" style="padding:8px 18px;">读对啦 ✓</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FEATURES -->
+      <section class="block" id="features">
+        <div class="wrap">
+          <div class="sec-head">
+            <h2>我们怎么教</h2>
+            <p>没有花哨的口号，就是把四件小事坚持做下去。</p>
+          </div>
+          <div class="feat-list">
+            <div class="feat">
+              <span class="num">01</span>
+              <div>
+                <h3>每天一句，不贪多</h3>
+                <p>一天只攻一句，读熟、读对、用上。一年下来，就是三百多个能脱口而出的句子。</p>
+              </div>
+            </div>
+            <div class="feat">
+              <span class="num">02</span>
+              <div>
+                <h3>在场景里学句子</h3>
+                <p>刷牙时说刷牙，吃饭时说吃饭。句子和生活绑在一起，孩子记得牢，也敢开口。</p>
+              </div>
+            </div>
+            <div class="feat">
+              <span class="num">03</span>
+              <div>
+                <h3>跟读打卡，有回应</h3>
+                <p>晨读视频下留言打卡，老师看得到、会回应。坚持这件事，孩子需要被看见。</p>
+              </div>
+            </div>
+            <div class="feat">
+              <span class="num">04</span>
+              <div>
+                <h3>线上热身，线下深练</h3>
+                <p>每天用晨读保持语感，周末到课堂上面授深练——纠音、对话、情景表演。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="block tint" id="contact" style="padding-top:64px;">
+        <div class="wrap">
+          <div class="sec-head center">
+            <h2>联系我们</h2>
+            <p>想给孩子试试晨读，或者咨询线下课程，从这几个入口都能找到我们。</p>
+          </div>
+          <div class="contact-grid">
+            <div class="contact-item">
+              <span class="ci-label">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 12-9 12S3 17 3 10a9 9 0 1118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                上课地点
+              </span>
+              <span class="ci-value">南京市江宁区金盛路 175 号</span>
+              <p>导航搜索「南京市圣类思教育培训中心」即可定位，欢迎到店参观咨询。</p>
+            </div>
+            <div class="contact-item">
+              <span class="ci-label">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3.1 19.5 19.5 0 01-6-6A19.8 19.8 0 012.1 4.2 2 2 0 014.1 2h3a2 2 0 012 1.7c.13.96.36 1.9.7 2.8a2 2 0 01-.45 2.1L8.1 9.9a16 16 0 006 6l1.3-1.3a2 2 0 012.1-.45c.9.34 1.84.57 2.8.7A2 2 0 0122 16.9z"/></svg>
+                咨询电话 / 微信
+              </span>
+              <span class="ci-value"><a href="tel:18136496627">181 3649 6627</a></span>
+              <p>点号码可直接拨打，咨询课程与报名。</p>
+              <div class="qr-slot">微信二维码图片<br />放这里</div>
+            </div>
+            <div class="contact-item">
+              <span class="ci-label">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/></svg>
+                小红书 · 每日晨读
+              </span>
+              <span class="ci-value"><a href="https://xhslink.cn/o/1G8nY4vtY2q" target="_blank" rel="noopener">跟着圣类思Joe老师一起晨读</a></span>
+              <p>小红书号 94528319491。每天早上更新一句晨读视频，先关注起来，陪孩子读一周试试。</p>
+            </div>
+          </div>
+          <div class="contact-cta">
+            <p>地址、电话和课程都已填好，看完预览觉得版式可以，下一步就是买下域名，网站就能正式上线。</p>
+            <a class="btn btn-green" href="https://xhslink.cn/o/1G8nY4vtY2q" target="_blank" rel="noopener">先去小红书看看晨读</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site">
+      <div class="wrap footer-in">
+        <span class="f-brand">南京市圣类思教育培训中心</span>
+        <span>江宁区金盛路 175 号 · 18136496627</span>
+        <span>shengleisi.com · 官网设计预览（域名尚未购买）</span>
+        <span>本站照片为示意素材，正式上线时替换为机构实拍</span>
+        <span>每天一句英语晨读，陪 3–12 岁孩子开口说英语</span>
+      </div>
+    </footer>
+
+    <script>
+      // mobile nav
+      var menuBtn = document.getElementById('menuBtn');
+      var mainNav = document.getElementById('mainNav');
+      menuBtn.addEventListener('click', function () {
+        var open = mainNav.classList.toggle('open');
+        menuBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      });
+      mainNav.addEventListener('click', function (e) {
+        if (e.target.tagName === 'A') {
+          mainNav.classList.remove('open');
+          menuBtn.setAttribute('aria-expanded', 'false');
+        }
+      });
+
+      // morning-reading sentence practice card (in-session only)
+      var sentences = [
+        { tag: '日常洗漱', en: 'Brush your teeth.', zh: '刷牙。——刷牙这句总读错，今天读对它。' },
+        { tag: '日常洗漱', en: 'Wash your hands.', zh: '洗手。——饭前便后，先把手洗干净。' },
+        { tag: '日常洗漱', en: 'Time to take a bath.', zh: '该洗澡啦。——玩了一天，洗个澡舒服舒服。' },
+        { tag: '日常生活', en: 'Let me make a sandwich.', zh: '我来做个三明治。——早餐时间到。' },
+        { tag: '日常生活', en: "Let's build with blocks.", zh: '我们来搭积木吧。——搭个高高的塔。' },
+        { tag: '日常生活', en: 'Good night, sleep tight.', zh: '晚安，睡个好觉。——睡前故事讲完啦。' }
+      ];
+      var idx = 0, flipped = false, reads = 0;
+      var fcTag = document.getElementById('fcTag');
+      var fcEn = document.getElementById('fcEn');
+      var fcZh = document.getElementById('fcZh');
+      var flashcard = document.getElementById('flashcard');
+      var readCount = document.getElementById('readCount');
+
+      function render() {
+        var s = sentences[idx];
+        fcTag.textContent = s.tag + ' · 第 ' + (idx + 1) + ' / ' + sentences.length + ' 句';
+        fcEn.textContent = s.en;
+        fcZh.innerHTML = flipped ? s.zh : '&nbsp;';
+        flashcard.querySelector('.fc-hint').textContent = flipped ? '再点一下收起中文' : '点卡片翻看中文意思';
+      }
+      flashcard.addEventListener('click', function () { flipped = !flipped; render(); });
+      document.getElementById('nextBtn').addEventListener('click', function () {
+        idx = (idx + 1) % sentences.length; flipped = false; render();
+      });
+      document.getElementById('prevBtn').addEventListener('click', function () {
+        idx = (idx - 1 + sentences.length) % sentences.length; flipped = false; render();
+      });
+      document.getElementById('checkinBtn').addEventListener('click', function () {
+        reads += 1; readCount.textContent = reads;
+      });
+      render();
+    </script>
+  </body>
+</html>
