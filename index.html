@@ -315,6 +315,9 @@
         display: grid; place-items: center; color: var(--ink-soft); font-size: 13.5px;
         background: var(--bg); text-align: center; padding: 8px;
       }
+      .qr-wrap { display: flex; flex-direction: column; gap: 6px; align-items: flex-start; }
+      .qr-img { width: 168px; max-width: 100%; height: auto; border: 1px solid var(--line); border-radius: 14px; background: #fff; padding: 6px; }
+      .qr-cap { font-size: 12.5px; color: var(--ink-soft); }
       .contact-cta { margin-top: 26px; display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: center; text-align: center; }
       .contact-cta p { width: 100%; margin: 0 0 2px; color: var(--ink-soft); font-size: 15px; }
 
@@ -647,7 +650,10 @@
               </span>
               <span class="ci-value"><a href="tel:18136496627">181 3649 6627</a></span>
               <p>点号码可直接拨打，咨询课程与报名。</p>
-              <div class="qr-slot">微信二维码图片<br />放这里</div>
+              <div class="qr-wrap">
+                <img class="qr-img" src="wechat-qr.jpg" alt="微信二维码，扫码添加圣类思教育培训中心咨询微信" width="624" height="638" />
+                <span class="qr-cap">扫码加微信，咨询课程与报名</span>
+              </div>
             </div>
             <div class="contact-item">
               <span class="ci-label">
